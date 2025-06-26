@@ -5,6 +5,7 @@
     font-weight: 400;
     gap: 30px;
 }
+
 .main{
     font-size: 75px;
     font-weight: bold;
@@ -35,12 +36,11 @@
 
 .img{
     display: flex;
-    margin-top: 150px;
-  
+    margin-top: 100px;
 }
 
 .aside{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .arrow{
@@ -97,7 +97,6 @@
     align-items: center;
     font-weight: bold;
     font-size: 60px;
-
 }
 
 .img1{
@@ -344,7 +343,6 @@
     color: rgb(234, 195, 2);
 }
 
-
 .contact-section {
     display: flex;
     flex-wrap: wrap;
@@ -454,4 +452,177 @@
 
 .btn2:hover{
     background-color: rgb(234, 195, 2);
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .aside {
+        margin-left: 0;
+        text-align: center;
+    }
+    .img {
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .body {
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .para {
+        width: 100%;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .img1 {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    .about, .veg1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .img2, .img3 {
+        margin-left: 0;
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 30px auto;
+    }
+    .para_text, .p2, .p4, .p5 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .btn1, .r1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .card-1, .card-2 {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .veg-logo1, .veg-logo2, .veg-logo3, 
+    .veg-logo4, .veg-logo5, .veg-logo6, 
+    .veg-logo7, .veg-logo8, .veg-logo9, 
+    .veg-logo10 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .logo1 {
+        margin-left: auto;
+    }
+    .last_page {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .last {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ltext {
+        margin-top: 20px;
+    }
+    .p5 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo3 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
+    }
+    .contact-section {
+        flex-direction: column;
+    }
+    .contact-form {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .contact-form button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact-map {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .footer {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+    .footer-column {
+        margin-left: 0;
+        text-align: center;
+    }
+    .newsletter input[type="email"] {
+        width: 100%;
+    }
+    .nb-text {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .lens {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main, .m1 {
+        font-size: 40px;
+    }
+    .about, .veg1 {
+        font-size: 32px;
+    }
+    .buy, .read, .btn1, .btn2, .r1 {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    .arrow {
+        height: 50px;
+        width: 50px;
+        font-size: 16px;
+    }
+    .contact-form button {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn2 {
+        display: block;
+        margin: 10px auto !important;
+        width: 80%;
+    }
+    .contact-map {
+        width: 100% !important;
+        height: 300px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn2 {
+        width: 100%;
+    }
+    .contact-map {
+        height: 250px;
+    }
 }
